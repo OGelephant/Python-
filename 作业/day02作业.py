@@ -1,0 +1,12 @@
+#输入一个三位数，将其拆分成百位数，视为是和个位数，并求和。
+num3=input("请输入一个三位数")
+list1=num3.strip()
+num31=list1[0]
+num32=list1[1]
+num33=list1[2]
+print(f"个位{num33}十位{num32}百位{num31}")
+num31=int(num31)
+num32=int(num32)
+num33=int(num33)
+sum1=num31+num32+num33
+print(f"和是{sum1}")
